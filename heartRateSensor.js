@@ -62,6 +62,7 @@
         }
         result.rrIntervals = rrIntervals;
       }
+      console.log("HR:"+result.heartRate+"RR:"+result.rrIntervals);
       return result;
     }
 
